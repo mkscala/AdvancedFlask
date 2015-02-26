@@ -35,8 +35,6 @@
     <Content Include="TriviaMVAApp\templates\CreatedQuestion.html" />
     <Content Include="TriviaMVAApp\templates\CreateQuestion.html" />
     <Content Include="TriviaMVAApp\templates\Incorrect.html" />
-    <Content Include="TriviaMVAApp\__pycache__\views.cpython-34.pyc" />
-    <Content Include="TriviaMVAApp\__pycache__\__init__.cpython-34.pyc" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
@@ -54,7 +52,6 @@
   <ItemGroup>
     <Folder Include="TriviaMVAApp\" />
     <Folder Include="TriviaMVAApp\templates\" />
-    <Folder Include="TriviaMVAApp\__pycache__\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="runserver.py" />
