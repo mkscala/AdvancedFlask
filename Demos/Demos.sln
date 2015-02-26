@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Module 1 - MVATrivia", "MVATrivia\Module 1 - MVATrivia.pyproj", "{E72A546B-FF35-4C4C-A757-A413C2766EFB}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Module 2 - MVATrivia", "Module 2 - MVATrivia\Module 2 - MVATrivia.pyproj", "{FF3E4260-A6AB-437C-AB80-B129C9D96AD5}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Module 4 - MVATrivia", "Module 3 - MVATrivia\Module 4 - MVATrivia.pyproj", "{108EFBB2-265A-4972-8ABF-0A4F0F8C03E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E72A546B-FF35-4C4C-A757-A413C2766EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E72A546B-FF35-4C4C-A757-A413C2766EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E72A546B-FF35-4C4C-A757-A413C2766EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E72A546B-FF35-4C4C-A757-A413C2766EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF3E4260-A6AB-437C-AB80-B129C9D96AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF3E4260-A6AB-437C-AB80-B129C9D96AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF3E4260-A6AB-437C-AB80-B129C9D96AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF3E4260-A6AB-437C-AB80-B129C9D96AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{108EFBB2-265A-4972-8ABF-0A4F0F8C03E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{108EFBB2-265A-4972-8ABF-0A4F0F8C03E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{108EFBB2-265A-4972-8ABF-0A4F0F8C03E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{108EFBB2-265A-4972-8ABF-0A4F0F8C03E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
