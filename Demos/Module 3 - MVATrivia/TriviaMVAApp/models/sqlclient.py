@@ -1,10 +1,9 @@
 import pypyodbc;
 
 class Client(object):
-       
     def __init__(self):
-        __connectionString = 'Driver={SQL Server};Server=tcp:testpython.database.windows.net,1433;Database=test;Uid=test@testpython;Pwd=P@ssw0rd;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;';
-        self.connection = pypyodbc.connect(__connectionString);
+        connectionString = 'Driver={SQL Server};Server=tcp:testpython.database.windows.net,1433;Database=test;Uid=test@testpython;Pwd=P@ssw0rd;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;';
+        self.connection = pypyodbc.connect(connectionString);
         self.cursor = self.connection.cursor();
         return;
 
@@ -26,14 +25,10 @@ class Client(object):
         return question;
 
     def getAnswer(self, title):
-        try:
-            sql = "SELECT CorrectAnswer FROM Questions WHERE QuestionName = ?";
-            values = [title];
-            self.cursor.execute(sql, values);
-            results = self.cursor.fetchone();
-            correctAnswer = results[0];
-            self.connection.close();
-            return correctAnswer;
-        except pypyodbc.Error as err:
-            return err;
-    
+        sql = "SELECT CorrectAnswer FROM Questions WHERE QuestionName = ?";
+        values = [title];
+        self.cursor.execute(sql, values);
+        results = self.cursor.fetchone();
+        correctAnswer = results[0];
+        self.connection.close();
+        return correctAnswer;    

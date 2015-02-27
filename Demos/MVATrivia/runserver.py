@@ -1,4 +1,4 @@
-#Load up the app
+#Load up the app from the package
 from TriviaMVAApp import app;
 
 # Launching our server

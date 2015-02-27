@@ -1,6 +1,7 @@
 from flask import Flask, url_for, request, render_template;
 from TriviaMVAApp import app;
 
+#from TriviaMVAApp.models.redisclient import Client;
 from TriviaMVAApp.models.sqlclient import Client;
 
 # server/
